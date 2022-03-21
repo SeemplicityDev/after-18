@@ -1,0 +1,15 @@
+{
+  "name": "After 18:00",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "all_frames": true,
+      "js": ["content-script.js"]
+    }
+  ]
+}
