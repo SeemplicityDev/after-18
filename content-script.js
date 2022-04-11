@@ -4,7 +4,7 @@ function addRemoveWarning(text) {
     const prefix = "Are you sure you want to "
     const suffix = " after " + hours + ":00?";
     var now = new Date()
-    if (now.getHours() > hours) {
+    if (now.getHours() >= hours) {
         if (text.startsWith(prefix)) {
             return text;
         } else {
