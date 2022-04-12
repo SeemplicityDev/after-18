@@ -4,7 +4,7 @@
 
 ## Brief
 
-A Chrome Extension that works only on Github’s “pull request” pages, and changes the text on the “Merge” button after a given hour (18:00 in our case) to remind the developer about the consequences of pressing that button.
+A browser extension that works only on Github’s “pull request” pages, and changes the text on the “Merge” button after a given hour (18:00 in our case) to remind the developer about the consequences of pressing that button.
 
 ## Installation Instructions
 
