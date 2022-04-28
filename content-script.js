@@ -25,8 +25,6 @@ var interval = setInterval(function () {
         var oldText = buttons[i].innerHTML;
         var newText = addRemoveWarning(oldText);
         if (oldText != newText) {
-            console.log(oldText);
-            console.log(newText);
             buttons[i].innerHTML = newText;
         }
     }
